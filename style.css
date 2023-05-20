@@ -1,0 +1,32 @@
+body{
+    background-image:url("abcd.avif");
+}
+h1,#label,#confidence{
+    color: azure;
+}
+#show_sketch{
+float:right;
+}
+h1{
+    background-color: chartreuse;
+    
+}
+canvas{
+border: 5px solid antiquewhite;
+ border-radius: 20px;
+animation-name:example;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+margin-top: 100px;
+
+}
+@keyframes example{
+    from{box-shadow: 10px 10px 50px rgb(243, 4, 191);}
+    to{box-shadow: 10px 10px 50px rgb(138, 92, 232);}
+}
+#label,#confidence{
+font-size: 25px;
+padding-top: 10px;
+}
+
+
